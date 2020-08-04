@@ -2,11 +2,12 @@
 {
 	margin: 0;
 	padding: 0;
-}
-Body
+body
 {
-	background-color: #f1f3f4;
-	font-family: sans-serif;  
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+	overflow: hidden;
 }
 .top-nav-bar
 {
@@ -50,15 +51,6 @@ Body
 	border-bottom-right-radius: 20 ! important;
 	cursor: pointer;
 }
-.search-box
-{
-	display: inline-flex;
-	width: 60%;
-}
-.fa-search
-{
-	color: #fff;
-}
 .menu-bar
 {
 	width: 40%
@@ -85,13 +77,6 @@ Body
 	font-weight: bold;
 	color: #fff;
 	text-decoration: none;
-}
-body
-{
-	padding: 0;
-	margin: 0;
-	font-family: sans-serif;
-	overflow: hidden;
 }
 .Ingabire1,.Ingabire2,.Ingabire3,.Ingabire4,.Ingabire5
 {
